@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  padding-top: 6rem;
 }
 .apresentacao {
   font-size: 4rem;
@@ -14,10 +15,26 @@
   background: linear-gradient(to top, #aaaaaa 0%, #ffffff 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-top: 1rem;
 }
 
 @media (max-width: 750px) {
   .apresentacao {
     font-size: 2.5rem;
   }
+}
+
+.container img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.container img:hover {
+  width: 130px;
+  height: 130px;
+  transition: 0.6s;
 }
