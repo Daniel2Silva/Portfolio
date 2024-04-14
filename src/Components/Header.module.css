@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  position: fixed;
+  padding: 1.7rem 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(90px);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav li a {
+  font-size: 1rem;
+  color: beige;
+  border: 1px solid transparent;
+  padding: 10px;
+  transition: 0.7s;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.nav li a:hover {
+  transition: 0.7s;
+  background-color: #121212;
+  border: #3b3b3b solid 1px;
+  border-radius: 8px;
+}

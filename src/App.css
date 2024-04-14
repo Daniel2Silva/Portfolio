@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  background: linear-gradient(153deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    linear-gradient(360deg, rgba(0, 0, 0, 1), rgba(0, 255, 0, 0)),
+    linear-gradient(268deg, rgba(0, 0, 0, 1), rgba(255, 255, 0, 0)),
+    linear-gradient(98deg, rgba(0, 0, 0, 1), rgba(255, 0, 0, 0));
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins';
+}
+p,
+span {
+  line-height: 1.6;
+  font-size: 1.125rem;
+  font-family: 'Roboto';
+}
+
+p {
+  color: #b5b5b5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

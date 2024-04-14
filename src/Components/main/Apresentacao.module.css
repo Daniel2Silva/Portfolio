@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.apresentacao {
+  font-size: 4rem;
+  font-family: 'Poppins';
+  font-weight: 700;
+  text-align: center;
+  background: #aaaaaa;
+  background: linear-gradient(to top, #aaaaaa 0%, #ffffff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 750px) {
+  .apresentacao {
+    font-size: 2.5rem;
+  }
+}
