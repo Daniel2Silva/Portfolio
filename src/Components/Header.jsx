@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -7,13 +8,19 @@ const Header = () => {
       <nav>
         <ul className={styles.nav}>
           <li>
-            <a href="#projetos">Projetos</a>
+            <Link to="projetos" smooth="true" duration={500}>
+              Projetos
+            </Link>
           </li>
           <li>
-            <a href="#sobre">Sobre</a>
+            <Link to="sobre" smooth="true" duration={500}>
+              Sobre
+            </Link>
           </li>
           <span className={styles.contatoColor}>
-            <a href="#contato">Contato</a>
+            <Link to="contato" smooth="true" duration={500}>
+              Contato
+            </Link>
           </span>
         </ul>
       </nav>

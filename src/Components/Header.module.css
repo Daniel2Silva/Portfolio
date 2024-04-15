@@ -25,6 +25,7 @@
   border-radius: 8px;
   font-family: 'Poppins';
   font-weight: 600;
+  cursor: pointer;
 }
 
 .nav li a:hover {
@@ -43,6 +44,7 @@
   font-family: 'Poppins';
   font-weight: 600;
   color: #9558f5;
+  cursor: pointer;
 }
 
 .contatoColor a:hover {
