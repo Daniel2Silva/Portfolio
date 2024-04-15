@@ -12,9 +12,9 @@ const Header = () => {
           <li>
             <a href="#sobre">Sobre</a>
           </li>
-          <li>
+          <span className={styles.contatoColor}>
             <a href="#contato">Contato</a>
-          </li>
+          </span>
         </ul>
       </nav>
     </section>

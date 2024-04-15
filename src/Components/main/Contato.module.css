@@ -10,6 +10,32 @@
   border-radius: 16px;
   padding: 7rem;
   border: #3b3b3b solid 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contatoCard::before {
+  content: '';
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  border: 20px solid #5de1ff;
+  top: -150px;
+  left: -150px;
+}
+
+.contatoCard::after {
+  content: '';
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  border: 20px solid #9558f5;
+  right: -150px;
+  bottom: -150px;
 }
 
 .contatoCard h2 {
@@ -48,6 +74,17 @@
   transition: 0.3s;
 }
 
+@media (max-width: 800px) {
+  .contatoCard::before {
+    top: -250px;
+    left: -250px;
+  }
+  .contatoCard::after {
+    bottom: -250px;
+    right: -250px;
+  }
+}
+
 @media (max-width: 750px) {
   .contatoCard {
     padding: 2rem;
@@ -57,5 +94,8 @@
   }
   .contatoCard p {
     font-size: 1rem;
+  }
+  .contato {
+    padding-top: 6rem;
   }
 }

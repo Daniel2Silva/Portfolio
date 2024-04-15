@@ -24,6 +24,7 @@
   -moz-box-shadow: 41px -49px 53px -15px rgba(31, 30, 31, 1);
   box-shadow: 41px -49px 53px -15px rgba(31, 30, 31, 1);
   border-radius: 12px;
+  filter: grayscale(100%);
 }
 
 @media (max-width: 750px) {

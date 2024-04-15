@@ -33,3 +33,22 @@
   border: #3b3b3b solid 1px;
   border-radius: 8px;
 }
+
+.contatoColor a {
+  font-size: 1rem;
+  border: 1px solid transparent;
+  padding: 10px;
+  transition: 0.7s;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #9558f5;
+}
+
+.contatoColor a:hover {
+  transition: 0.7s;
+  background-color: #121212;
+  border: #3b3b3b solid 1px;
+  border-radius: 8px;
+  color: #5de1ff;
+}
